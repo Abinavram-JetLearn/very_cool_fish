@@ -1,0 +1,50 @@
+Which planet is known as the Red Planet?|Venus|Mars|Jupiter|Saturn|2
+What is the largest ocean on Earth?|Atlantic|Indian|Pacific|Arctic|3
+Who wrote Romeo and Juliet?|Charles Dickens|William Shakespeare|Mark Twain|Jane Austen|2
+What gas do plants primarily absorb for photosynthesis?|Oxygen|Nitrogen|Carbon dioxide|Hydrogen|3
+Which element has the chemical symbol “O”?|Gold|Oxygen|Osmium|Silver|2
+What is the square root of 144?|10|11|12|14|3
+Which country is the largest by land area?|Russia|China|Canada|USA|1
+Who painted the Mona Lisa?|Van Gogh|Picasso|Leonardo da Vinci|Michelangelo|3
+How many continents are on Earth?|5|6|7|8|3
+Which organ pumps blood through the body?|Liver|Heart|Lungs|Kidneys|2
+What is H₂O commonly known as?|Salt|Water|Hydrogen|Helium|2
+How many days are in a leap year?|364|365|366|367|3
+Which language has the most native speakers?|English|Mandarin Chinese|Spanish|Hindi|2
+What is the capital of France?|London|Paris|Rome|Berlin|2
+Which animal is known as the King of the Jungle?|Tiger|Elephant|Lion|Bear|3
+What is the freezing point of water in Celsius?|−10°C|0°C|10°C|32°C|2
+Which instrument has 88 keys?|Guitar|Violin|Piano|Flute|3
+How many planets are in the Solar System?|7|8|9|10|2
+Who discovered gravity (apple legend)?|Einstein|Newton|Galileo|Kepler|2
+What is the tallest mountain on Earth?|K2|Everest|Kilimanjaro|Denali|2
+Which blood type is the universal donor?|A|B|AB|O negative|4
+What currency is used in Japan?|Won|Yuan|Yen|Dollar|3
+What is the largest internal organ in the human body?|Brain|Liver|Heart|Stomach|2
+What does DNA stand for?|Digital Network Array|Deoxyribonucleic Acid|Dynamic Nuclear Atom|Delta Nitrogen Agent|2
+Which metal is liquid at room temperature?|Iron|Aluminium|Mercury|Copper|3
+How many bones are in an adult human body?|106|206|306|406|2
+The Great Wall is in which country?|India|China|Japan|Korea|2
+Which planet has the most moons?|Earth|Mars|Jupiter|Venus|3
+What part of the plant conducts photosynthesis?|Roots|Stem|Leaves|Flowers|3
+Which scientist proposed the theory of relativity?|Newton|Einstein|Tesla|Bohr|2
+Which country invented pizza?|France|USA|Italy|Greece|3
+What is the smallest prime number?|0|1|2|3|3
+Which animal lays eggs?|Whale|Bat|Platypus|Human|3
+What is the capital of Egypt?|Cairo|Beirut|Doha|Amman|1
+What is the hardest natural substance on Earth?|Gold|Quartz|Diamond|Silver|3
+Which planet is closest to the Sun?|Earth|Mercury|Venus|Saturn|2
+How many sides does a hexagon have?|5|6|7|8|2
+What is the chemical symbol for gold?|Ag|Au|Go|Gd|2
+Which is the fastest land animal?|Horse|Lion|Cheetah|Gazelle|3
+Which continent is the Sahara Desert on?|Asia|Africa|Australia|South America|2
+What is the boiling point of water (Celsius)?|90°C|95°C|100°C|110°C|3
+Which planet is known for its rings?|Venus|Mars|Saturn|Neptune|3
+Which country hosted the 2016 Summer Olympics?|China|Brazil|UK|Japan|2
+How many months have 31 days?|4|6|7|8|3
+What is the capital of Canada?|Toronto|Vancouver|Ottawa|Montreal|3
+Who was the first President of the United States?|Abraham Lincoln|George Washington|Thomas Jefferson|John Adams|2
+Which gas makes up most of Earth’s atmosphere?|Oxygen|Nitrogen|Carbon dioxide|Helium|2
+What is the largest mammal on Earth?|Elephant|Blue Whale|Giraffe|Orca|2
+Which continent is the smallest by land area?|Europe|Australia|South America|Antarctica|2
+What do bees collect to make honey?|Water|Nectar|Seeds|Leaves|2

@@ -1,4 +1,4 @@
-import pgzrun
+import pgzrun, random
 
 WIDTH = 1925
 HEIGHT = 1000
@@ -12,6 +12,8 @@ ans4 = Rect(812.5,650,500,300)
 timer = Rect(1400,150, 200,400)
 restart = Rect(1400,575,500,400)
 skip = Rect(1700,150,200,200)
+score = 0
+answerboxes = [ans1, ans2, ans3, ans4]
 
 time_que = 10
 game_state = True
@@ -20,29 +22,32 @@ questions = []
 
 def read_question():
     global questions
-    file = open("lesson 4\questions.txt", "r")
+    file = open("lesson 4/questions.txt", "r", encoding = "utf-8")
     for q in file:
-        print(q)
         questions.append(q.strip())
-    return questions.pop(0).split("|")
+    random.shuffle(questions)
+    q = questions.pop(0).split("|")
+    return q
 
 cur_question = read_question()
 
 def timer_reduce():
-    global time_que, game_state
+    global time_que, game_state, cur_question
     if time_que > 0:
         time_que -= 1
     else:
         game_state = False
         time_que = 0
+        cur_question = [f"Game Over You scored {score} point(s)!", "-", "-", "-", "-", "-", 5]
+        time_que = 0
 
 def draw():
-    global time_que, titletext, question
+    global time_que, titletext, question, score
 
     screen.fill("magenta3")
     screen.draw.filled_rect(title,"magenta2")
     screen.draw.filled_rect(title2,"magenta2")
-    screen.draw.textbox(f"{titletext}", title, color = "violet red")
+    screen.draw.textbox(f"{titletext}, Score: {score}", title, color = "violet red")
     screen.draw.filled_rect(question,"magenta2")
     screen.draw.textbox(cur_question[0], question, color = "violet red")
     screen.draw.filled_rect(ans1,"magenta2")
@@ -68,6 +73,37 @@ def update():
         title.left = WIDTH
     else:
         title.x -= 10
+def on_mouse_down(pos):
+    global time_que, cur_question, score, questions, game_state
+    index = 1
+    if game_state == True:
+        for box in answerboxes:
+            if box.collidepoint(pos):
+                if index == int(cur_question[5]):
+                    score += 1
+                    if questions:
+                        cur_question = read_question()
+                        time_que = 10
+                else:
+                    cur_question = [f"Game Over You scored {score} point(s)!", "-", "-", "-", "-", "-", 5]
+                    time_que = 0
+            index += 1
+    if skip.collidepoint(pos):
+        if questions:
+            if game_state == True:
+                cur_question = read_question()
+                time_que = 10
+                if score > 0:
+                    score -= 1
+                else:
+                    cur_question = [f"Game Over You (skipped) scored {score} point(s)!", "-", "-", "-", "-", "-", 5]
+                    time_que = 0
+    if restart.collidepoint(pos):
+        questions = []
+        cur_question = read_question()
+        score = 0
+        time_que = 10
+        game_state = True
 
 clock.schedule_interval(timer_reduce,1)
 pgzrun.go()
